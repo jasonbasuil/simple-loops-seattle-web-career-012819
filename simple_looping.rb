@@ -13,7 +13,7 @@ end
 
 def times_iterator(number_of_times)
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  8.times {|i| puts phrase, ""}
+  7.times {|i| puts phrase, ""}
 end
 
 def while_iterator(number_of_times)
