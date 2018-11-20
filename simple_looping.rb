@@ -12,16 +12,17 @@ end
 
 
 def times_iterator(number_of_times)
-  8.times {|i| puts phrase
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  
+  8.times {|i| puts phrase, ""}
 end
 
 def while_iterator(number_of_times)
-  # code your solution here using the "while" keyword
-  # hint: user a counter to tell the while loop when to stop!
+  count = 0 
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  
+  while count < 7 
+    puts phrase 
+    count += 1 
+  end 
 end
 
 def until_iterator(number_of_times)
